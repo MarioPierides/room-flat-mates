@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import Navbar from '../components/navbar';
 
 const Title = styled.h1`
   font-size: 50px;

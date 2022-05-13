@@ -1,5 +1,5 @@
 {
-  "name": "nextjsapp",
+  "name": "next-js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "react-scripts test",
     "eslint": "eslint \"**/*.js\"",
     "stylelint": "stylelint \"**/*.css\"",
-    "prettier": "prettier --write",
+    "prettier": "npx prettier --write",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -23,10 +22,10 @@
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
     "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
     "prettier": "2.6.2",
     "stylelint": "^14.6.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^25.0.0",
-    "lint-staged": "^12.3.7"
+    "stylelint-config-standard": "^25.0.0"
   }
 }
