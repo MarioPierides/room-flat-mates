@@ -3,12 +3,9 @@ import styled from 'styled-components';
 export default function Navbar() {
   return (
     <StyledNavbar>
-      <Link>
-        <StyledButton as="a">Rooms</StyledButton>
-      </Link>
-      <Link>
-        <StyledButton as="a">Flat Mates</StyledButton>
-      </Link>
+      <StyledButton as="a">Rooms</StyledButton>
+
+      <StyledButton as="a">Flat Mates</StyledButton>
     </StyledNavbar>
   );
 }
